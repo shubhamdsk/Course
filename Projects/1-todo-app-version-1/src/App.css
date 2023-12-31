@@ -1,0 +1,21 @@
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+}
+.todo-items {
+  text-align: left;
+}
+.dsk-row {
+  margin: 10px 5px;
+}
+.dsk-button {
+  min-width: 99px;
+}
+.col-2 {
+  width: 9.666667%;
+}
