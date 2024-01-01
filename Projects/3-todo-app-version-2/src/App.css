@@ -1,0 +1,12 @@
+input {
+  width: 100%;
+}
+.dsk-row {
+  margin: 10px 5px;
+}
+.col-2 {
+  width: 9.666667%;
+}
+.dsk-button {
+  min-width: 99px;
+}
