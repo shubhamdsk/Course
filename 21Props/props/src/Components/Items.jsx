@@ -5,7 +5,7 @@ const Items = (props) => {
   let { fooditems } = props;
   return (
     <div>
-      <li className={styles["dsk-item"]}>
+      <li className={`${styles["dsk-item"]} list-group-item`}>
         <span className={styles["dsk-span"]}>{fooditems}</span>
       </li>
     </div>
