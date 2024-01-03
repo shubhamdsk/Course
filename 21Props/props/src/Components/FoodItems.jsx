@@ -7,7 +7,13 @@ const FoodItems = ({ items }) => {
       {/* Map Method */}
       <ul className="list-group">
         {items.map((item) => (
-          <Items key={item} fooditems={item} />
+          <Items
+            key={item}
+            fooditems={item}
+            handleBuyButton={() => {
+              console.log(`${item} is brought.`);
+            }}
+          />
         ))}
       </ul>
     </div>
