@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./FoodInput.module.css";
-const FoodInput = ({ handleOnChange }) => {
+const FoodInput = ({ handleKeyDown }) => {
   return (
     <div>
       <input
         type="text"
         placeholder="Enter Food Item Here"
         className={styles.foodinput}
-        onChange={handleOnChange}
+        onKeyDown={handleKeyDown}
       ></input>
     </div>
   );
